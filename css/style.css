@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.main-box{
+    position:absolute;
+    background-image:linear-gradient(to bottom, rgba(43, 43, 46, 0.705), rgba(39, 37, 37, 0.603)), url("/img/bg1.jpg");
+    background-size: cover;
+    background-position:center center;
+    width:100vw;
+    height: 100vh;
+}
+
+.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+h1{
+    color:#fafafa;
+    font-family: 'Lato', sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 0.1em;
+    font-size:55px;
+}
+span{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(241, 238, 16), rgb(236, 12, 42));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    padding:10px;
+    color: #ffeeff;
+    font-size: 18px;
+}
+.btn{
+    border:2px solid #fff;
+    border-radius: 50px;
+    color:rgb(240, 220, 220);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color:#f83a3a;
+}
+.btn:hover{
+    border: 2px solid #f83a3a;
+    background-color: #fafafa;
+    color: #f83a3a;
+    transition: all 1s;
+}
+a{
+    color: #fafafa;
+    text-decoration: none;
+}
